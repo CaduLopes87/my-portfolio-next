@@ -13,4 +13,42 @@
     p {
         margin: 8px 0 64px 0;
     }
+
+    @media (min-width: 768px) {
+        align-items: flex-start;
+        text-align: start;
+
+        font-size: 1.5rem;
+
+        margin-left: 0;
+        
+        p {
+            font-size: 2rem;
+            font-weight: 300;
+            
+            margin-top: 24px;
+            margin-left: 32px;
+            
+            max-width: 832px;
+        }
+        
+        .title-line{
+            display: flex;
+            position: relative;
+        }
+
+        .title {
+            margin: 0;
+        }
+
+        .line {
+            position: absolute;
+            top: 50%;
+            left: 100%;
+            margin-left: 32px;
+            height: 1px;
+            width: 28vw;
+            background-color: var(--tertiary-color);
+        }
+    }
 }
