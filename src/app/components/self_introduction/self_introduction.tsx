@@ -3,7 +3,7 @@ import "./self_introduction.scss"
 import { LinkedinIcon } from '../icons/LinkedinIcon'
 import { GitIcon } from '../icons/GitIcon'
 
-export function SelfIntrodution () {
+export function SelfIntroduction () {
     return (
         <div className='introduction-container'>
             <div>
@@ -17,8 +17,8 @@ export function SelfIntrodution () {
                 <Image
                     src="/perfil_pic.jpg"
                     alt="Eduardo perfil picture"
-                    width={200}
-                    height={200}
+                    width={250}
+                    height={250}
                     priority
                     />
             </div>
